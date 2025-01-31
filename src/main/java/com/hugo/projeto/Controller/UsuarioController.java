@@ -2,7 +2,6 @@ package com.hugo.projeto.Controller;
 
 import com.hugo.projeto.Service.UsuarioService;
 import com.hugo.projeto.entity.UsuarioEntity;
-import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
