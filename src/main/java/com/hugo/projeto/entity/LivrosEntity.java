@@ -7,6 +7,7 @@ import lombok.Setter;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.Date;
 import java.util.Objects;
 
 @NoArgsConstructor @Getter @Setter
@@ -26,7 +27,7 @@ public class LivrosEntity implements Serializable {
     private String nomeAutor;
 
     @Column(name = "data_lancamento")
-    private LocalDateTime dataLancamento;
+    private Date dataLancamento;
 
 
 
